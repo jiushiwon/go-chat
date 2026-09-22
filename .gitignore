@@ -1,0 +1,25 @@
+# ============== 编译产物 ==============
+/bin/
+/server
+/server.exe
+*.test
+*.out
+
+# ============== 运行时数据 ==============
+/data/*.db
+/data/*.db-journal
+/data/*.db-wal
+/data/*.db-shm
+
+# ============== 本地配置 ==============
+/.env
+
+# ============== 编辑器 ==============
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ============== Go ==============
+# 不要 ignore /vendor —— 当前未启用 vendor
+# 不要 ignore go.sum —— 应当入库
